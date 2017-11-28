@@ -1,9 +1,13 @@
-/*var a,
-	h,
-	triangleArea;
+var a,
+	b,
+	value;
 	
-a = prompt('enter base');
-h = prompt('enter height');
-triangleArea = a*h/2;
-alert('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
-console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);*/
+a = prompt('wpisz liczbę a');
+b = prompt('wpisz liczbę b');
+value = (a * a) - (2 * a * b) + (b * b);
+
+if (value <= 0) {
+	console.log('Wynik ujemny');
+} else {
+	console.log('Wynik dodatni');
+}
