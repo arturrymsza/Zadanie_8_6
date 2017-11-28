@@ -12,4 +12,6 @@ if (value < 0) {
 	console.log('Wynik dodatni, ' + value);
 } else if (value === 0) {
 	console.log('Wynik to 0');
+} else if (isNaN(value)) {
+	console.log('Błąd - wynik nie jest liczbą');
 }
